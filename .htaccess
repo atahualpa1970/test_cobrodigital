@@ -1,0 +1,11 @@
+RewriteEngine On
+
+ErrorDocument 404 /extras/error404.html
+
+#evitar listado de directorios
+IndexIgnore *
+
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
